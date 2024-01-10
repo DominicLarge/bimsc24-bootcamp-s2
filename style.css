@@ -6,6 +6,7 @@ html{
 
 /* Change Text Color */
     color: blue;
+    font-size: 30px;
 
 }
 
@@ -19,6 +20,7 @@ div{
 
 /* put the borders in the inside of the container  */
     box-sizing: border-box;
+
 
 }
 
@@ -38,12 +40,14 @@ div{
 #Sidebar{
 
 width: 30%;
+background-color: red;
 
 }
 
 #Main{
 
 width: 70%;
+background-color: gray;
 
 }
 
