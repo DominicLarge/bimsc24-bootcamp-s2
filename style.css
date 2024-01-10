@@ -1,0 +1,55 @@
+
+html{
+
+/* Change background color */
+    background-color: rgb(113, 218, 165);
+
+/* Change Text Color */
+    color: blue;
+
+}
+
+body{
+
+    margin: 0;
+
+}
+
+div{
+
+/* put the borders in the inside of the container  */
+    box-sizing: border-box;
+
+}
+
+#Nav{
+
+    height: 50px;
+
+}
+
+#Flex{
+
+/* Puts the Sidebar and Main next to each other */
+    display: flex;
+    height: calc(100vh - 50px);
+}
+
+#Sidebar{
+
+width: 30%;
+
+}
+
+#Main{
+
+width: 70%;
+
+}
+
+.container{
+
+    border-style: dotted;
+    border-color: black;
+    border-width: 2.5px;
+}
